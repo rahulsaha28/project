@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Main Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="stylesheet" href="css/main.css">
+       
+    </head>
+
+    <body>
+            <section>
+                    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-main">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">LOVE BIRDS</a>
+                            </div>
+                            <div class="collapse navbar-collapse" id="navbar-main">
+                                <ul class="navbar-nav nav navbar-left">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Food</a></li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                                            Category<span class="caret"></span>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>Cat-1</li>
+                                            <li>Cat-2</li>
+                                            <li>Cat-3</li>
+                                            <li>Cat-4</li>
+                                            <li>Cat-5</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <form class="navbar-form navbar-right">
+                                    <div class="form-group">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">Log In</button>
+                                        <button class="btn btn-warning" type="button" data-toggle="modal" data-target="#myModal2">Register</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
+        
+        <!-- this is the first modal -->
+                   <div class="modal fade" id="myModal1" tabindex='-1' role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">Log In</h4>
+                                </div>
+        
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label>Name </label>
+                                            <input type="text" class="form-control" placeholder="Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Password </label>
+                                            <input type="text" class="form-control" placeholder="Password">
+                                        </div>
+        
+                                        <div class="modal-footer">
+                                            <button class="btn btn-default">Log In</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                   </div> <!-- /ending first modal -->
+        
+                   <!-- Second model -->
+                   <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">Register</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label>Username</label>
+                                            <input type="text" class="form-control" placeholder="Username">
+                                        </div>
+        
+                                        <div class="form-group">
+                                            <label>E-mail addres</label>
+                                            <input type="text" class="form-control" placeholder="E-mail addres">
+                                        </div>
+        
+                                        <div class="form-group">
+                                                <label>Chose Option</label>
+                                                <select class="form-control">
+                                                    <option>Manager</option>
+                                                    <option>Food Lover</option>
+                                                </select>
+                                            </div>
+        
+                                        <div class="form-group">
+                                            <label>Password</label>
+                                            <input type="text" class="form-control" placeholder="Password">
+                                        </div>
+                                        
+                                    </form>
+                                </div>
+        
+                                <div class="modal-footer">
+                                    <button class="btn btn-danger" type="button">Sign Up</button>
+                                </div>
+        
+                            </div>
+                        </div>
+                   </div>
+        
+            </section>
+
+            <section class="pagedetail-section-2">
+                
+
+                             <div class="row">
+                                    <div class="col-md-4 col-xs-12 col-sm-6">
+                                           <div class="thumbnail">
+                                                <img class="img-0" src="./img/m1.jpg">
+                                                <div class="caption">
+                                                    <h3>Thumbnail label</h3>
+                                                    <p>
+                                                            Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                                                             Donec id elit non mi porta gravida at eget metus.
+                                                             Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                                    </p>
+                                                    <p><button class="btn btn-primary">Add to Cart</button></p>    
+                                                </div>
+                                           </div> 
+                                    </div>
+
+
+                                    <div class="col-md-4 col-xs-12 col-sm-6">
+                                            <div class="thumbnail">
+                                                 <img class="img-0" src="./img/m2.jpg">
+                                                 <div class="caption">
+                                                     <h3>Thumbnail label</h3>
+                                                     <p>
+                                                             Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                                                              Donec id elit non mi porta gravida at eget metus.
+                                                              Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                                     </p>
+                                                     <p><button class="btn btn-primary">Add to Cart</button></p>
+                                                 </div>
+                                            </div> 
+                                     </div>
+
+
+                                     <div class="col-md-4 col-xs-12 col-sm-6">
+                                            <div class="thumbnail">
+                                                 <img class="img-0" src="./img/m3.jpg">
+                                                 <div class="caption">
+                                                     <h3>Thumbnail label</h3>
+                                                     <p>
+                                                             Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                                                              Donec id elit non mi porta gravida at eget metus.
+                                                              Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                                     </p>
+                                                     <p><button class="btn btn-primary">Add to Cart</button></p>
+                                                 </div>
+                                            </div> 
+                                     </div>
+
+
+
+                                     <div class="col-md-4 col-xs-12 col-sm-6">
+                                            <div class="thumbnail">
+                                                 <img class="img-0" src="./img/m4.jpg">
+                                                 <div class="caption">
+                                                     <h3>Thumbnail label</h3>
+                                                     <p>
+                                                             Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                                                              Donec id elit non mi porta gravida at eget metus.
+                                                              Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                                     </p>
+                                                     <p><button class="btn btn-primary">Add to Cart</button></p>
+                                                 </div>
+                                            </div> 
+                                     </div>
+
+
+                                     <div class="col-md-4 col-xs-12 col-sm-6">
+                                            <div class="thumbnail">
+                                                 <img class="img-0" src="./img/m2.jpg">
+                                                 <div class="caption">
+                                                     <h3>Thumbnail label</h3>
+                                                     <p>
+                                                             Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                                                              Donec id elit non mi porta gravida at eget metus.
+                                                              Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                                     </p>
+                                                     <p><button class="btn btn-primary">Add to Cart</button></p>
+                                                 </div>
+                                            </div> 
+                                     </div>
+
+
+
+                                     <div class="col-md-4 col-xs-12 col-sm-6">
+                                            <div class="thumbnail">
+                                                 <img class="img-0" src="./img/m3.jpg">
+                                                 <div class="caption">
+                                                     <h3>Thumbnail label</h3>
+                                                     <p>
+                                                             Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                                                              Donec id elit non mi porta gravida at eget metus.
+                                                              Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                                     </p>
+                                                     <p><button class="btn btn-primary">Add to Cart</button></p>
+                                                 </div>
+                                            </div> 
+                                     </div>
+                                </div>
+
+
+
+
+
+               
+               
+            </section>
+
+
+    </body>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="./js/pagedetail.js"></script>
+        
+</html>

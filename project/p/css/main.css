@@ -1,0 +1,261 @@
+
+
+.dropdown-menu
+{
+    padding: 10px 0px;
+    text-align:center;
+
+}
+
+.dropdown-menu li
+{
+    padding: 14px 0px;
+}
+
+.dropdown-menu li:hover
+{
+    background-color: #c6ceb7;
+    cursor:pointer;
+}
+
+.main-section-3
+{
+    padding: 78px 0px;
+}
+
+.font-icon
+{
+    position: relative;
+    top:-300px;
+    background-color:#00000070;
+    color:white;
+    text-align:center;
+}
+
+.font-icon h3
+{
+    position: relative;
+    top:20%;
+}
+
+.font-icon-1
+{
+    width:150px;
+    height:150px;
+    border:4px solid white;
+    border-radius:50%;
+    position: relative;
+    top:20%;
+    left:20%;
+    text-align:center;
+}
+
+.font-icon-1 i
+{
+    font-size:40px; 
+    position:relative;
+    top:30%;
+    left:-10%;
+}
+
+.font-icon-1 span
+{
+    position: relative;
+    top:0px;
+    right:-78px;
+    background-color:white;
+    color:black;
+    padding:8px 11px;
+    border-radius:50%;
+}
+
+.thumbnail .caption
+{
+    padding:0px;
+}
+
+.footer
+{
+    margin-top:60px;
+}
+
+.footer .row
+{
+    background-color:#775656;
+    height:60px;
+    padding:0px 45%;
+    
+}
+
+.footer .col-md-12
+{
+    padding:20px 0px;
+
+}
+
+.footer span
+{
+     height:60px;
+     padding:0px 5px;
+     font-size:20px;   
+}
+
+
+/* page.html */
+
+.page-sec-3
+{
+    background-color:#e4e0e0;
+    padding:56px 0px;
+}
+
+.link 
+{
+    font-size:20px;
+}
+
+.food-detail
+{
+    border-bottom:2px solid #9c9393;
+    padding:0px 10px 30px 10px;
+    margin-bottom:10px;
+}
+
+.img100x100
+{
+    width:100px;
+    height:100px;
+}
+
+.review-num
+{
+    font-size:20px;
+    margin-bottom:50px;
+    
+}
+
+.review-comment
+{
+    list-style: none;
+}
+
+.review-comment li
+{
+     border-top:1px solid #807070;
+     border-bottom:1px solid #807070;
+     margin-top:100px;
+     padding:10px 0px 10px 0px;
+}
+
+.star
+{
+    cursor:pointer;
+}
+
+.star i
+{
+    color:red;
+    
+}
+
+.red
+{
+    color:red;
+}
+
+.text-Experience
+{
+    height:150px;
+    margin-bottom:20px;
+}
+
+.review-inbox
+{
+    margin-bottom:20px;
+}
+
+
+.review-inbox i
+{
+    font-size:20px;
+}
+
+.reviewButton
+{
+    margin-top:20px;
+}
+
+.reviewButton:hover
+{
+    background-color:rgba(0, 0, 0, 0.514);
+    color:white;
+}
+
+/* end */
+
+
+/* pagedetail */
+.pagedetail-section-2
+{
+    padding:0px 5% 0px 5%;
+}
+
+.pagedetail-section-2  .thumbnail
+{
+    padding:5px 15px 5px 15px;
+}
+
+/* end */
+
+
+/* profile */
+
+.img350x250
+{
+    width:350px;
+    height:250px;
+}
+
+.Edit-cam
+{
+    position : relative;
+    top:-20px;
+    cursor:pointer;
+    background-color:#0404044a;
+}
+
+.show
+{
+    display:none!important;
+}
+
+/* end */
+
+
+/* admin_profile */
+.file
+{
+    margin-bottom:15px;
+}
+
+.text-product
+{
+    height:100px!important;
+    margin-bottom:20px;
+}
+
+.profile-0
+{
+    padding:0px 10px 0px 0px;
+}
+
+.pro-detail
+{
+    position: relative;
+    top:-109px;
+    text-align:center;
+    background-color:#efe6e6d6;
+    
+}
+
+/* end */
